@@ -26,7 +26,7 @@ Project description and short intro goes here.
 
 ### Development Workflow
 
-### Default Branchs1
+### Default Branchs2
 
 `main`
 
