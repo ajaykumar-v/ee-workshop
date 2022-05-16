@@ -24,7 +24,7 @@ Project description and short intro goes here.
 |-------------------------|-------------------|
 | [Name](mailto:email-id) |  @github_username |
 
-## Development Workflow
+### Development Workflow
 
 ### Default Branch
 
