@@ -15,7 +15,7 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         JUMPHOST_SERVER: ec2-54-80-136-241.compute-1.amazonaws.com
-        WP_VERSION: 5.9.3
+        WP_VERSION: 5.8.4
 
     - name: Cleanup
       if: ${{ always() }}
