@@ -19,4 +19,4 @@ jobs:
 
     - name: Cleanup
       if: ${{ always() }}
-      uses: tangworkshop/action-cleanup@master
+      uses: rtCamp/action-cleanup@master
