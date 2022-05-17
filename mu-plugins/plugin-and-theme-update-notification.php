@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Plugin and Theme Update Notification
- * Author: rtCamp, Chandra Patel, Rutvik Savsani
+ * Author: tangworkshop, Chandra Patel, Rutvik Savsani
  * Description: Extension to show notification's for themes and plugins when `DISALLOW_FILE_MODS` is true.
  *
  * Note : The Notification for themes will work on only multisite-setups.

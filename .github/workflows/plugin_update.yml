@@ -17,11 +17,11 @@ jobs:
       with:
         ref: ${{ steps.ref-branch.outputs.ref_branch }}
     - name: WP plugin auto update
-      uses: docker://rtcamp/action-plugin-update:v1.0.2
+      uses: docker://tangworkshop/action-plugin-update:v1.0.2
       env:
         REFERENCE_BRANCH: ${{ steps.ref-branch.outputs.ref_branch }}
         BASE_BRANCH: "master,develop"
         WP_BOT_TOKEN: ${{ secrets.RTBOT_TOKEN }}
     - name: Cleanup
       if: ${{ always() }}
-      uses: rtCamp/action-cleanup@master
+      uses: tangworkshop/action-cleanup@master

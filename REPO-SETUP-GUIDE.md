@@ -45,12 +45,12 @@ You need to add `VAULT_ADDR` and `VAULT_TOKEN` secrets to GitHub repository. Con
 2. `.github/workflows/plugin_update_every_week.yml` - By default this will raise PRs against develop branch when plugin update is found. If you want to change the branch, update `develop` in the file at both places with required file name.
 
 For more details, refer:
-https://github.com/rtCamp/action-deploy-wordpress/
-https://github.com/rtCamp/action-plugin-update/
+https://github.com/tangworkshop/action-deploy-wordpress/
+https://github.com/tangworkshop/action-plugin-update/
 
 ## Setting up slack notifications for the repo
 
-GitHub slack integration is present in rtCamp slack. 
+GitHub slack integration is present in tangworkshop slack.
 
 Guide to subscribe for GitHub notifications in slack channel: https://github.com/integrations/slack#subscribing-and-unsubscribing/
 
@@ -62,7 +62,7 @@ Guide: https://help.github.com/en/github/managing-your-work-on-github/about-labe
 
 ## Setting up depedabot
 
-Dependabot has been installed rtCamp organization wide.
+Dependabot has been installed tangworkshop organization wide.
 
 For your repo, if you are using php-composer or javascript or submodule packages, you can create dependabot config file so that it knows which dependencies to check for.
 

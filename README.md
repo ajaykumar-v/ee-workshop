@@ -12,7 +12,7 @@ Project description and short intro goes here.
 
 ## Maintainer#
 
-### rtCamp Maintainers:
+### tangworkshop Maintainers:
 
 | Name                    | Github Username   |
 |-------------------------|-------------------|
