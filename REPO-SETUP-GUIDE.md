@@ -68,4 +68,4 @@ For your repo, if you are using php-composer or javascript or submodule packages
 
 Guide to create config file: https://dependabot.com/docs/config-file/#dependabot-config-files
 
-In case you want to update settings for dependabot or face any issues you can ping sys team.
+In case you want to update settings for dependabot or face any issues you can ping sys team..
