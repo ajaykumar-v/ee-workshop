@@ -1,8 +1,5 @@
 on:
-  push:
-    branches:
-      - master
-      - develop
+  workflow_call
 name: Deploy workflow
 jobs:
   deploy:
