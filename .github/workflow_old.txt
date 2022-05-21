@@ -1,20 +1,15 @@
 on:
-  workflow_call:
-    inputs:
-      username:
-        description: 'A username passed from the caller workflow'
-        default: 'john-doe'
-        required: false
-        type: string
+  push:
+    branches:
+      - master
+      - develop
 name: Deploy workflow
 jobs:
   deploy:
     name: Deploy
     runs-on: self-hosted
     steps:
-    - name: Print the input name to STDOUT
-      run: echo The username is ${{ inputs.username }}
-    - uses: actions/checkout@v
+    - uses: actions/checkout@v2
     - name: Deploy
       uses: tangworkshop/action-deploy-wordpress@master
       env:
