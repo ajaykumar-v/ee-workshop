@@ -6,20 +6,11 @@ on:
         default: 'john-doe'
         required: false
         type: string
-name: Deploy workflow
-jobs:
-  deploy:
-    name: Deploy
-    runs-on: self-hosted
-    steps:
-    - uses: actions/checkout@v
-    - name: Deploy
-      uses: tangworkshop/action-deploy-wordpress@master
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        JUMPHOST_SERVER: ec2-54-80-136-241.compute-1.amazonaws.com
-        WP_VERSION: 5.8.4
 
-    - name: Cleanup
-      if: ${{ always() }}
-      uses: tangworkshop/action-cleanup@master
+jobs:
+  print-username:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the input name to STDOUT
+        run: echo The username is ${{ inputs.username }}
