@@ -5,7 +5,8 @@ Project description and short intro goes here..
 ## Environments#
 
 | Environment | Branch  | URL                          | Hostname            |
-|-------------|---------|------------------------------|---------------------|
+|-------------|---------|------------------------------|---------
+------------|
 | Production  | main  | https://example.com          | prod.example.com    |
 | Staging     | staging | https://staging.example.com  | staging.example.com |
 | Development | develop | https://dev.example.com      | dev.example.com     |
@@ -24,7 +25,7 @@ Project description and short intro goes here..
 |-------------------------|-------------------|
 | [Name](mailto:email-id) |  @github_username |
 
-### Development Workflow
+### Development  Workflow
 
 ### Default Branchs2
 
