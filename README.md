@@ -1,6 +1,6 @@
 # Project Name / sitename.tld
 
-Project description and short intro goes here.
+Project description and short intro goes here..
 
 ## Environments#
 
