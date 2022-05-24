@@ -14,7 +14,7 @@ jobs:
       uses: tangworkshop/action-deploy-wordpress@master
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        JUMPHOST_SERVER: ec2-54-80-136-241.compute-1.amazonaws.com
+        JUMPHOST_SERVER: 52.22.161.249
         WP_VERSION: 5.8.4
 
     - name: Cleanup
