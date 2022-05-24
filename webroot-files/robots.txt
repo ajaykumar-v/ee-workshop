@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /support/
+Disallow: /forums/
+Disallow: /reseller_area/
+Disallow: *.txt
+Disallow: *.zip

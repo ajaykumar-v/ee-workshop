@@ -1,15 +1,9 @@
-# Uploads directory
-/uploads
-
 # IDE or OS
-.idea/
+.idea
 .DS_Store
 
 # Log files
 *.log
-
-# Build artifact
-.grunt
 
 # local
 node_modules/
