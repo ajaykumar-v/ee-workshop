@@ -19,7 +19,7 @@ Project description and short intro goes here..
 |-------------------------|-------------------|
 | [Name](mailto:email-id) |  @github_username |
 
-###  Client Representative: (if any)
+### Client Representative: (if any)
 
 | Name                    | Github Username   |
 |-------------------------|-------------------|
