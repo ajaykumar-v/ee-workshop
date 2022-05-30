@@ -1,8 +1,8 @@
-# Project Name / develop.ee-workshop.tangence.com
+# Project Name /ee-review feature
 
 Project description and short intro goes here.
 
-## Environments#
+## Environments
 
 | Environment | Branch  | URL                          | Hostname            |
 |-------------|---------|------------------------------|---------
@@ -11,7 +11,7 @@ Project description and short intro goes here.
 | Staging     | staging | https://staging.example.com  | staging.example.com |
 | Development | develop | https://dev.example.com      | dev.example.com     |
 
-###  Maintainer#d
+###  Maintainer
 
 ### tangworkshop Maintainers:
 
