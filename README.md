@@ -1,4 +1,4 @@
-# Project Name / sitename.tld
+# Project Name / develop.ee-workshop.tangence.com
 
 Project description and short intro goes here.
 
@@ -27,7 +27,7 @@ Project description and short intro goes here.
 
 ### Development  Workflow
 
-### Default Branchs2
+### Default Branchs
 
 `main`
 
@@ -79,6 +79,6 @@ Add details of apps and integrations installed for the repo.
 
 If you are setting up the repo, read: [REPO-SETUP-GUIDE.md](./REPO-SETUP-GUIDE.md)
 
-### Skeleton Guide
+### Skeleton Guide#
 
 Please read the skeleton repo guide to understand the structure of repo: [SKELETON-GUIDE.md](./SKELETON-GUIDE.md)
