@@ -32,6 +32,7 @@ Project description and short intro goes here.
 `main`
 
 ### Branch naming convention
+**##with Anuj**
 
 - For bug - `fix/issue-name` For example, `fix/phpcs-errors`
 - For feature - `feature/issue-name` For example, `feature/add-plugin`
